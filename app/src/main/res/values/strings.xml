@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TFGISMA</string>
+    <string name="menu">Menu</string>
+    <string-array name="opciones_array">
+        <item>Jugadores</item>
+        <item>Equipo</item>
+        <item>Competición</item>
+        <item>Resultados</item>
+    </string-array>
+</resources>

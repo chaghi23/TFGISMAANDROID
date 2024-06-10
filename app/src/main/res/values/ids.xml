@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="menu_jugadores" type="id"/>
+    <item name="menu_equipo" type="id"/>
+    <item name="menu_competicion" type="id"/>
+    <item name="menu_resultados" type="id"/>
+</resources>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_jugadores"
+        android:title="Jugadores" />
+    <item
+        android:id="@+id/menu_equipo"
+        android:title="Equipo" />
+    <item
+        android:id="@+id/menu_competicion"
+        android:title="Competición" />
+    <item
+        android:id="@+id/menu_resultados"
+        android:title="Resultados" />
+</menu>

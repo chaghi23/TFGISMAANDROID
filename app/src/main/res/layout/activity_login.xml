@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <!-- Fondo azul diagonal -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue"
+        android:rotation="45"
+        android:translationY="-1000dp"
+        android:translationX="800dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginBottom="-100dp"
+        android:layout_marginStart="-1000dp"
+        android:layout_marginEnd="-1000dp" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Usuario EditText -->
+    <EditText
+        android:id="@+id/usuarioEditText"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:hint="User"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Contraseña EditText -->
+    <EditText
+        android:id="@+id/contrasenaEditText"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/usuarioEditText"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Botón de Login -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="LOGIN"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/contrasenaEditText"
+        android:layout_marginTop="30dp"/>
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>
